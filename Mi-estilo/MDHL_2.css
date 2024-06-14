@@ -1,0 +1,104 @@
+/*Esta es una prueba de como quedaria el sitio con los estilos que yo recomiendo*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-image: url("../assets/design1_image1.jpg");
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+}
+
+header h1{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+.barra{
+  margin: 40px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  background-color: black;
+  text-align: center;
+  border-radius: 12px ;
+}
+.barra__contenido{
+  display: inline-block;
+}
+
+
+.barra__img{
+  position: absolute;
+  width: 150px;
+  top: -150%;
+  right: 10%;
+  transition: all 1s;
+}
+
+.barra__img:hover{
+  transform: rotateZ(90deg);
+}
+
+.contenido{
+  margin: 80px;
+  background-color: white;
+  opacity: 0.9;
+}
+
+nav {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  margin: 0 50px;
+}
+
+nav a {
+  display: block;
+  margin-bottom: 10px; 
+  text-decoration: none;
+  color: #333;
+  margin: 50px 0;
+  transition: all 0.5s;
+}
+
+nav a:hover{
+  transform: scale(1.1);
+}
+
+
+.articulos {
+  display: inline-block;
+  width: 65%;
+  vertical-align: top; 
+}
+
+article{
+  margin: 30px 0;
+  border: 3px black solid;
+}
+.articulos p{
+  margin: 30px 0;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  height: 80px;
+ text-align: center;
+ position: relative;
+}
+
+footer p{
+  
+  position: absolute;
+  top: 20px; 
+  right: 30px;
+   
+}
